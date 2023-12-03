@@ -15,7 +15,7 @@ export default function Home() {
         {/* <SearchForm /> */}
       </section>
 
-      <section className="mx-auto max-w-7xl mt-10 p-6 bg-white rounded-t-lg">
+      <section className="mx-auto max-w-7xl mt-10 p-6 bg-white rounded-t-xl">
         <div className="pt-5">
           <h3 className="text-xl font-bold">Trending Destinations</h3>
           <p className="font-light">
@@ -28,7 +28,7 @@ export default function Home() {
             <div key={item.id} className="space-y-1 shrink-0 cursor-pointer">
               <img
                 key={item.id}
-                className="w-80 h-72 object-cover rounded-lg pb-2"
+                className="w-80 h-72 object-cover pb-2 rounded-xl"
                 src={item.src}
                 alt=""
               />
